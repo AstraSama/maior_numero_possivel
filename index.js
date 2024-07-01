@@ -3,7 +3,8 @@ let aux = '';
 
 const prompt = require("prompt-sync")();
 
-const ANAGRAMA = (data) => {
+const MAIORAL = (data) => {
+
     data = data.split("");
 
     for(let i = 0; i < data.length; i++) {
@@ -23,6 +24,6 @@ const ANAGRAMA = (data) => {
 
 numero = prompt("Escreva um número: ");
 
-numero = ANAGRAMA(numero);
+numero = MAIORAL(numero);
 console.log(numero);
 
